@@ -39,7 +39,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         .catch(() => {
           toast.error("Trailer unavailable!");
           setTimeout(() => {
-            toast.info("Watch something else!");
+            toast.info("Try something else!");
           }, 2000);
         });
     }
